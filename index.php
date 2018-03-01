@@ -1,8 +1,5 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello World from Badak php server</p>'; ?> 
- </body>
-</html>
+
+<?php 
+ echo "I am VERSION 1 <br><br>";
+ echo "My Pod IP is : ".$_SERVER['SERVER_ADDR'] ;
+ ?>
